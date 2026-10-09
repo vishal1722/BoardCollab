@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BoardCollab
 
 A real-time shared whiteboard built with React, Konva, Redux Toolkit, Express, Socket.IO, MongoDB, and an optional Redis Socket.IO adapter.
@@ -78,3 +79,6 @@ PNG and SVG export are performed client-side from the current board. MongoDB sto
 ## Security and operational boundaries
 
 Use HTTPS/WSS in deployment, a strong secret manager-backed JWT secret, strict CORS origins, TLS/authentication for MongoDB and Redis, and rate limiting at the API and Socket.IO edge. The current baseline authenticates every room join and protects private rooms with invite codes, but does not include user revocation, account recovery, abuse moderation, or an external identity provider. Configure backups and retention for room data before production use.
+=======
+# BoardCollab
+>>>>>>> 7b07c6276d6b6c4fab98e43980142ab2c630f76e
